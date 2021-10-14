@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Nav Bar*/
+.nav{
+    background-color: 	#808080cb;
+    width: 100%;
+    height: 65px;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    padding: 0px 15px;
+}
+/* List */
+.nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    float: left;
+}
+/* Links */
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 1px 0.9px#EE82EE;
+    box-sizing: border-box;
+}
+a:hover:not(.register):not(.login){
+    text-decoration: underline;
+    color: 	#ff9eff;
+    text-shadow: 1px 1px 1px white;
+}
+.register{
+    margin-left: 900px;
+    float: right;
+    font-family: serif;
+    font-style: italic;
+    color: 	#ff9eff;
+    text-shadow: 1px 1px 1px white;
+    box-sizing: border-box;
+}
+.register:hover{
+    text-decoration: underline;
+    color: white;
+    text-shadow: 3px 1px 0.9px#EE82EE
+}
+.login{
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+    font-style: italic;
+    color: 	#ff9eff;
+    text-shadow: 1px 1px 1px white;
+    box-sizing: border-box;
+}
+.login:hover{
+    text-decoration: underline;
+    color: white;
+    text-shadow: 3px 1px 0.9px#EE82EE
+}
+/* End Nav Bar */
+/* Picture Background*/
+.background{
+    background-image: url(header.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Paragraph on Background */
+.background p{
+    font-size: 40px;
+    color:#504d4d;
+    font-weight: 900;
+    padding: 100px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+/* Buttons on Background */
+.background button{
+    width: 120px;
+    height: 35px;
+    margin-left: 30px;
+    color:  #FFD700;
+    background-color: #f374f3;
+    border-radius: 10px 2px;
+}
+button:hover{
+    cursor: grab;
+}
+button:active{
+    border: 3px dashed #FFD700;
+}
+/* End Background */
+/* Section Table */
+.tabel{
+    padding: 50px;
+    background-color: #FAEBD7;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Paragraph abouv Table*/
+.caption{
+    color: #696969;
+    font-size: 45px;
+    font-family: monospace;
+    font-weight: 900;
+    text-align: center;
+}
+/* Table */
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+table{
+    width: 780px;
+    height: 350px;
+    margin-top: 30px;
+    text-align: center;
+}
+th{
+    height: 40px;
+    color: black;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+tr{
+    color: #726f6f;
+    font-weight: bold;
+}
+/* Differences */
+tr:nth-child(even){
+    background-color: gray;
+    font-weight: bold;
+    color: black;
+    height: 90px;
+}
+tr:nth-child(2){
+    height: 110px;
+}
+.before{
+    text-decoration: line-through;
+}
+/* End Table */
+/* CopyRight */
+.copyright{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+/* End CopyRight */
